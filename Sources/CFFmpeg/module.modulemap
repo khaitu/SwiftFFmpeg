@@ -1,41 +1,41 @@
 framework module CFFmpeg [system] {
-    module AVUtil {
-        header "avutil_shim.h"
-        header "avutil.h"
-        link "avutil"
-        export *
-    }
-    module AVFormat {
-        header "avformat.h"
-        header "avio.h"
-        link "avformat"
-        export *
-    }
-    module AVCodec {
-        header "avcodec.h"
-        link "avcodec"
-        export *
-    }
-    module AVFilter {
-        header "avfilter.h"
-        header "buffersink.h"
-        header "buffersrc.h"
-        link "avfilter"
-        export *
-    }
-    module AVDevice {
-        header "avdevice.h"
-        link "avdevice"
-        export *
-    }
-    module Swscale {
-        header "swscale.h"
-        link "swscale"
-        export *
-    }
-    module Swresample {
-        header "swresample.h"
-        link "swresample"
-        export *
-    }
+  module AVUtil {
+    header "avutil_shim.h"
+    header "avutil.h"
+    link "avutil"
+    export *
+  }
+  module AVFormat {
+    header "avformat.h"
+    header "avio.h"
+    link "avformat"
+    export *
+  }
+  module AVCodec {
+    header "avcodec.h"
+    link "avcodec"
+    export *
+  }
+  module AVFilter {
+    header "avfilter.h"
+    header "buffersink.h"
+    header "buffersrc.h"
+    link "avfilter"
+    export *
+  }
+  module AVDevice {
+    header "avdevice.h"
+    link "avdevice"
+    export *
+  }
+  module Swscale {
+    header "swscale.h"
+    link "swscale"
+    export *
+  }
+  module Swresample {
+    header "swresample.h"
+    link "swresample"
+    export *
+  }
 }

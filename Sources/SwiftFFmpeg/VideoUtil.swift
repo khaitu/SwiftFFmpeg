@@ -595,7 +595,7 @@ public struct AVPixelFormatDescriptor {
     ///   otherwise 0 is luma, 1 is chroma-U and 2 is chroma-V.
     ///
     /// If present, the Alpha channel is always the last component.
-    public var componentDescriptors: [SwiftFFmpeg.AVComponentDescriptor] {
+    public var componentDescriptors: [AVComponentDescriptor] {
         [cDescriptor.comp.0, cDescriptor.comp.1, cDescriptor.comp.2, cDescriptor.comp.3]
     }
 
